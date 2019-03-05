@@ -1,8 +1,8 @@
 package edu.uprm.ece.icom4035.polynomial;
 
-import edu.uprm.ece.icom4035.list.ArrayListFactory;
-import edu.uprm.ece.icom4035.list.ListFactory;
-import edu.uprm.ece.icom4035.list.SinglyLinkedListFactory;
+import edu.uprm.ece.icom4035.list1.ArrayListFactory;
+import edu.uprm.ece.icom4035.list1.ListFactory;
+import edu.uprm.ece.icom4035.list1.SinglyLinkedListFactory;
 
 public class TermListFactory {
 	private static  String factory = "array";

@@ -19,7 +19,6 @@ public class Test1 {
 	public void setUp() throws Exception {
 		 P1 = new PolynomialImp("8x^2+1");
 		 P2 = new PolynomialImp("4x^2+2");
-
 	}
 
 	@Test
