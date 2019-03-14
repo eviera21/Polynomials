@@ -1,6 +1,6 @@
 package edu.uprm.ece.icom4035.list1;
 import java.util.Iterator;
-
+//
 public class ArrayList<E> implements List<E>{
 	private E[] elements;
 	private int size;
