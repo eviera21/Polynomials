@@ -106,7 +106,7 @@ public class PolynomialImp implements Polynomial {
 			TermImp term = (TermImp) iter.next();
 			if(term.getExponent()>=1) {
 				term=term.derive();
-				if(term.getCoefficient()!=0)result.list.add(term);
+				if(term.getCoefficient()!=0)result.list.add(new TermImp(term));
 			} 
 		}
 		result.checkZeros();
